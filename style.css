@@ -1,0 +1,59 @@
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main{
+    height: 250px;
+    width: 350px;
+    background:#2A3D81;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background:#6C93CC;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.outCircle1, .outCircle2, .outCircle3, .outCircle4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:12px solid #2A3D81;
+}
+
+.outCircle1{
+    top: 0;
+    margin-top: 66px;
+    margin-left: 55px;
+}
+.outCircle2{
+    right: 0;
+    margin-top: 66px;
+    margin-right: 55px;
+}
+.outCircle3{
+    top: 0;
+    margin-top: 10px;
+    margin-left: 113px;
+}
+.outCircle4{
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-left: 113px;
+} 
